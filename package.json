@@ -1,7 +1,7 @@
 {
   "name": "find-pair-sum",
   "version": "0.0.1",
-  "description": "Find all the pair of numbers that when summed equal the target value in O(N) time complexity.",
+  "description": "Find all the pair of numbers that when summed equal the target value in O(N).",
   "main": "find-pair-sum.js",
   "directories": {
     "test": "test"

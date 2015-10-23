@@ -1,6 +1,6 @@
 # find-pair-sum
 
-> Find all the pair of numbers that when summed equal the target value in O(N) time complexity.
+> Find all the pair of numbers that when summed equal the target value in O(N).
 
 # Install
 

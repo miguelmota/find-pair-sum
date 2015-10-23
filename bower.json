@@ -6,7 +6,7 @@
   "authors": [
     "Miguel Mota <miguelmota2@gmail.com>"
   ],
-  "description": "Find all the pair of numbers that when summed equal the target value in O(N) time complexity.",
+  "description": "Find all the pair of numbers that when summed equal the target value in O(N).",
   "keywords": [
     "sum",
     "pair",
