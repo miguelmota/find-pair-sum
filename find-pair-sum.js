@@ -9,18 +9,16 @@
       for (var i = 0; i < numbers.length; i++) {
         var current = numbers[i];
         var difference = target - current;
-        var cachedIndex = cache[current];
-        var cachedNum = numbers[cachedIndex];
 
-        if (current + cachedNum === target) {
+        if (current in cache) {
           results.push([
             {
               index: i,
               value: current,
             },
             {
-              index: cachedIndex,
-              value: cachedNum
+              index: cache[current],
+              value: difference
             }
           ]);
         }
